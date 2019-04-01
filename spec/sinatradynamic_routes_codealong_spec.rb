@@ -22,7 +22,7 @@ describe 'app.rb' do
     it 'sends a 200 status code' do
       get '/multiply/5/5'
       expect(last_response.status).to eq(200)
-    end
+    endm
 
     it 'displays the product of the two numbers in the route' do
       get '/multiply/6/6'
